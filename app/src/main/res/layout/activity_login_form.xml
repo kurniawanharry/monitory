@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="530dp"
+        android:layout_height="match_parent"
         android:paddingBottom="16dp"
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
@@ -74,8 +74,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:orientation="vertical"
+        android:layout_marginTop="200dp"
         android:background="#f8f8f8"
         android:layout_alignParentBottom="true">
 
