@@ -51,6 +51,8 @@
             android:layout_height="60dp"
             android:hint="Mulai"
             android:textSize="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_centerVertical="true"
             android:background="@drawable/button_round"
             android:textColorHint="@color/colorPrimaryDark"
