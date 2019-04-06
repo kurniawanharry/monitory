@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008581</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Butter">#fcb93a</color>
+    <color name="Sunflower">#ffc50d</color>
+    <color name="warmblue">#3e43e9</color>
+    <color name="colgrey">#bababb</color>
+</resources>

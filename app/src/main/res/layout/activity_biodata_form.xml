@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:layout_alignParentTop="true"
+    tools:context=".Biodata_form">
+    
+    <TextView
+        android:id="@+id/textv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Panggilan Kamu"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <EditText
+        android:id="@+id/editx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh : Budi"
+        android:layout_below="@id/textv5"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
+    <TextView
+        android:id="@+id/textv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editx3"
+        android:text="Umur Kamu"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <EditText
+        android:id="@+id/editx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textv6"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Contoh : 12"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:layout_alignParentBottom="true">
+        
+        <Button
+            android:id="@+id/btnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Selanjutnya"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:background="@drawable/button_round"/>
+        
+        
+    </RelativeLayout>
+
+</RelativeLayout>
